@@ -75,3 +75,7 @@ Protecting User Data: Keeps personal and sensitive information safe from unautho
 Securing Payments: Ensures transaction integrity and compliance with financial regulations by guarding payment endpoints 
 
 Ensuring Availability: Maintains service uptime by mitigating abusive or malicious traffic patterns
+
+## CI/CD Pipeline
+
+A CI/CD pipeline automates the flow from code commits through building, testing, and deployment, reducing manual steps and ensuring consistent, reliable releases. It’s vital for our Airbnb-clone because it speeds up feedback loops, catches bugs early in development, and enables frequent, dependable feature rollouts. Common tools include GitHub Actions or GitLab CI for workflow orchestration, Docker for reproducible build environments, and Kubernetes or Terraform for deployment automation.
