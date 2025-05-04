@@ -55,3 +55,23 @@ Offers keyword search and advanced filters (price range, property type, amenitie
 
 Notifications & Messaging
 Facilitates in-app messaging between hosts and guests for inquiries and stay details. Sends automated email and push notifications for booking confirmations, reminders, and review prompts.
+
+## API Security
+
+Authentication (OAuth 2.0, JWT tokens): Ensures only verified users or services can access endpoints, preventing unauthorized entry 
+
+Authorization (RBAC, scope checks): Enforces fine-grained permissions so authenticated clients can only perform allowed actions 
+
+Rate Limiting & Throttling: Caps request rates per client to thwart brute-force attacks and denial-of-service attempts 
+
+Encryption (TLS/HTTPS): Protects data in transit against eavesdropping and man-in-the-middle attacks 
+
+Input Validation & Sanitization: Blocks injection attacks (e.g., SQL, script) by verifying and cleaning all incoming payloads 
+
+### Why It Matters
+
+Protecting User Data: Keeps personal and sensitive information safe from unauthorized access or leaks 
+
+Securing Payments: Ensures transaction integrity and compliance with financial regulations by guarding payment endpoints 
+
+Ensuring Availability: Maintains service uptime by mitigating abusive or malicious traffic patterns
