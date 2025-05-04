@@ -32,3 +32,26 @@ Properties: id, host_id, title, description, location
 Bookings: id, guest_id, property_id, check_in, check_out 
 Reviews: id, booking_id, rating, comment, created_at 
 Payments: id, booking_id, amount, status, paid_at 
+
+## Feature Breakdown
+
+User Management
+Allows users to register, log in, and manage their profiles. Hosts and guests have role-specific dashboards to view and edit personal details, track listings or reservations, and update security settings.
+
+Property Management
+Enables hosts to create, edit, and remove listings with photos, descriptions, amenities, and pricing. Includes availability calendars and location mapping to ensure accurate booking information and attract guests.
+
+Booking System
+Lets guests search for properties by date, location, and filters, then reserve stays with real-time availability checks. Hosts receive booking requests for approval (if required), and both parties get notifications and booking summaries.
+
+Reviews & Ratings
+After a completed stay, guests can leave ratings and written feedback for properties; hosts can respond to reviews. Aggregated scores inform future guests and help maintain quality across the platform.
+
+Payments & Transactions
+Handles secure payment processing, supporting deposits, final balances, and refunds. Tracks transaction statuses and receipts, providing transparency and financial records for both guests and hosts.
+
+Search & Filters
+Offers keyword search and advanced filters (price range, property type, amenities, ratings) to help guests find suitable listings quickly. Integrates map view and sort options (e.g., price low-to-high) for intuitive discovery.
+
+Notifications & Messaging
+Facilitates in-app messaging between hosts and guests for inquiries and stay details. Sends automated email and push notifications for booking confirmations, reminders, and review prompts.
